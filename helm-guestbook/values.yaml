@@ -6,7 +6,7 @@ replicaCount: 2
 
 image:
   repository: nginxinc/nginx-unprivileged
-  tag: latest
+  tag: 1.23
   pullPolicy: IfNotPresent
 
 service:
